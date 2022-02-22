@@ -27,7 +27,7 @@ describe('Scenarios where authentication is a pre-requirement', () => {
     cy.wait('@paymentRequest').then(response => {expect(response.state).to.equal('Complete')})
   })
 
-  it.only('logs out', () => {
+  it('logs out', () => {
     cy.visit('/')
     cy.wait('@getNotes')
 
