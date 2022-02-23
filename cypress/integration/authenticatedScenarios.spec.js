@@ -37,7 +37,7 @@ describe('Scenarios where authentication is a pre-requirement', () => {
         .click()
     }
 
-    /* ==== Generated with Cypress Studio === */
+    /* ==== Generated with Cypress Studio == */
     cy.get('.nav > :nth-child(2) > a').click()
     cy.get('#email').should('be.visible')
     /* ==== End Cypress Studio === */
