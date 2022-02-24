@@ -1,4 +1,6 @@
 /// <reference types="Cypress" />
+/// <reference path="../support/commands.d.ts" />
+
 it('successfully signs up using confirmation code sent via email', () => {
 
   //Estou importando o faker para dentro do teste
